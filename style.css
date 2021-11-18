@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  /* height: 7.2rem; */
+  width: 100%;
+  background-color: #ffffff;
+}
+.dot_container {
+  display: flex;
+  padding: 20px 30px;
+}
+.dot_container .dot {
+  width: 15px;
+  height: 15px;
+  background-color: #eae5e5;
+  margin: 0 3px;
+  border-radius: 50%;
+}
+.content_container {
+  background-color: #eae5e5;
+}
+.content_container .title_menu {
+  display: flex;
+}
+.title_menu {
+  padding-top: 5rem;
+  padding-left: 55.4rem;
+}
+.title_menu .title h3 {
+  font-size: 3rem;
+  line-height: 0;
+  color: #4d4d4d;
+}
+.title_menu .title p {
+  font-size: 1.5rem;
+  padding-top: 20px;
+}
+.menu {
+  padding-top: 20px;
+  padding-left: 40px;
+}
+.title_menu .menu ul {
+  display: flex;
+}
+.title_menu .menu ul li {
+  list-style: none;
+  font-size: 10px;
+  margin: 0 15px;
+}
+.avatar {
+  position: relative;
+  width: 39.9rem;
+  height: 39.9rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+.description_body {
+  display: flex;
+  justify-content: center;
+  padding-top: 9.8rem;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 50%;
+}
+.description {
+  padding-left: 3.8rem;
+}
+.description h1 {
+  font-size: 8rem;
+}
+.description h3 {
+  font-size: 5rem;
+  font-weight: 400;
+  line-height: 0;
+  padding-top: 13px;
+}
+.choice {
+  display: flex;
+  padding-top: 43px;
+}
+.choice .choice_dot {
+  background-color: #e83556;
+  width: 12.9rem;
+  height: 12.9rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 12px;
+}
+.choice .choice_dot p {
+  color: #ffffff;
+  font-size: 15px;
+}
+.description .text {
+  width: 42.2rem;
+  color: #4d4d4d;
+  font-size: 1.5rem;
+  padding-top: 3.8rem;
+}
